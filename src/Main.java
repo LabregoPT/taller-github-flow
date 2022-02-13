@@ -7,7 +7,11 @@ class Result {
     // Complete the 'simpleArraySum' function below.
     // The function is expected to return an INTEGER.
     public static int simpleArraySum(List<Integer> ar) {
-        return 0;
+        int sum = 0;
+        for(int i : ar){
+            sum += i;
+        }
+        return sum;
     }
 }
 
